@@ -1,5 +1,1 @@
-APPLICATION_ID = ''
-
-PUBLIC_KEY = ''
-
 TOKEN = ''

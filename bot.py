@@ -4,6 +4,7 @@ from conf import TOKEN
 
 
 class BotClient(discord.Client):
+
     async def on_ready(self):
         print('Logged on as {self.user}')
         invite = await self.fetch_invite('https://discord.gg/dpy')
